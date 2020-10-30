@@ -8,6 +8,5 @@
 <body>
     <p>Tu Pedido a quedado registrado.</p>
     <p>Ya se esta preparando.</p>
-    <p>provando gitpollas</p>
 </body>
 </html>
