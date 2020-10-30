@@ -13,8 +13,8 @@
         <form action="comprobar.php" method="post"/>
 
             <p>Nombre:</p> <input type="text" name="nombre"/>
-            <p> Apellidos:</p> <input type="text" name="apellidos" size="40"/>
-            <p>Email:</p> <input type="text" name="email" size="35"/>
+            <p>Apellidos:</p> <input type="text" name="apellidos" size="40"/>
+            <p>Correo:</p> <input type="text" name="email" size="35"/>
 
             <p>
                 <input type="submit" value="Comprobar el formulario">
