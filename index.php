@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>CANTINA PEDRALBES</h1>
+    <!-- Aqui anira la imatge -->
+    <div class="botons">
+        <a href="menu.php">
+            <input type="button" value="Fer comanda">
+        </a>
+        <a href="admin.php">
+            <input type="button" value="Administrador">
+        </a>
+    </div>
+    <?php include('footer.php');?>
 </body>
 </html>

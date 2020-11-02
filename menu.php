@@ -43,9 +43,7 @@
         <div class="content_right"></div>
     </div>
 
-    <?php
-    include('footer.php');
-    ?>
+    <?php include('footer.php');?>
     </div>
     <script>
         //Creamos un array en el que se recogerán todos los productos seleccionados
