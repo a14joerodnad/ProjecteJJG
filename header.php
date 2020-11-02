@@ -13,8 +13,8 @@
 <header>
     <ul>
         <li class="nav-bar-title"><a class="active" href="index.php">Inici</a></li>
-        <li class="nav-bar-title"><a class="active" href="menu.php">Inici</a></li>
-        <li class="nav-bar-title"><a class="active" href="admin.php">Inici</a></li>
+        <li class="nav-bar-title"><a class="active" href="menu.php">Carta</a></li>
+        <li class="nav-bar-title"><a class="active" href="admin.php">Admin</a></li>
     </ul>
 </header>
 </html>
