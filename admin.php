@@ -6,7 +6,7 @@
    </head>
    <body>
       <div id="login">
-         <form action= "usuario.php" method="GET">
+         <form action= "adminform.php" method="GET">
             <label>Usuario: </label>
             <input type="text" name="user"/><br>
             <label>Contraseña: </label>

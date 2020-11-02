@@ -2,7 +2,7 @@
    $user = $_GET['user'];
    $password = $_GET['password'];
 
-   if (($user == "usuario") AND ($password == "12345")) {
+   if (($user == "ausias") AND ($password == "ausias")) {
       echo "Bienvenido ".$user;
    } else {
       echo "¡Usuario o contraseña incorrectos!";
