@@ -9,6 +9,7 @@
 
 </head>
     <body>
+    <?php include 'header.php';?>
     <h1>Formulario.</h1>
         <form action="comprobar.php" method="post"/>
 
@@ -30,5 +31,6 @@
         <a href="gracias.php">
             <input type="button" value="Enviar">
         </a>
+        <?php include 'footer.php';?>
     </body>
 </html>

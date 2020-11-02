@@ -6,7 +6,9 @@
     <title>Pedido Registrado</title>
 </head>
 <body>
-    <p>Tu Pedido a quedado registrado.</p>
+    <?php include 'header.php';?>
+    <p>Tu Pedido ha quedado registrado.</p>
     <p>Ya se esta preparando.</p>
+    <?php include 'footer.php';?>
 </body>
 </html>
