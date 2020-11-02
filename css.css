@@ -60,3 +60,9 @@ input[type="submit"]:hover {
    background-color: #A33D41;
    opacity: 0.8;
 }
+
+.piepagina{
+   color: floralwhite;
+   background-color: dimgrey;
+   padding: 10px;
+}
