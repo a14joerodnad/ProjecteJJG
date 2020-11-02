@@ -5,6 +5,7 @@
       <link rel="stylesheet" type="text/css" href="css.css">
    </head>
    <body>
+   <?php include 'header.php';?>
       <div id="login">
          <form action= "adminform.php" method="GET">
             <label>Usuario: </label>
