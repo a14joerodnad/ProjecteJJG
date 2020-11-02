@@ -62,15 +62,20 @@ input[type="submit"]:hover {
 }
 
 .piepagina{
-   color: floralwhite;
+   position: absolute;
    background-color: dimgrey;
-   padding: 10px;
+   bottom: 10px;
+   padding: 0 10px 0 10px;
+   margin: 10px;
+   display: flex;
+   align-items: center;
 }
 
 header{
    right:10px;
    left:10px;
    margin:10px;
+   background-color: gray;
 }
 
 header ul{
@@ -92,4 +97,8 @@ header li a{
 
 .nav-bar-title{
    float: left;
+}
+
+header li a:hover{
+   color: dodgerblue;
 }
