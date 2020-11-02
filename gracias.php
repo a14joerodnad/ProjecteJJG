@@ -6,7 +6,7 @@
     <title>Pedido Registrado</title>
 </head>
 <body>
-    <p>Tu Pedido a quedado registrado PENE.</p>
+    <p>Tu Pedido a quedado registrado.</p>
     <p>Ya se esta preparando.</p>
 </body>
 </html>
