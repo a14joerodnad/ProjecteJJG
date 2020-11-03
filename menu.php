@@ -13,11 +13,10 @@
     <h1>Entrepans</h1>
     <div class="menumati">
         <div class="entrepans">
-            <h2></h2>
             <div class="productes">
                 <div class="producte1">
-                    <div class="titol"><h3>Donut</h3></div>
-                    <img class="imatgeProductes" src="./imatges/donutsxoco.jpg" alt="Donut">
+                    <div class="titol"><h3>Pernil dolç</h3></div>
+                    <img class="imatgeProductes" src="./imatges/donutsxoco.jpg" alt="Pernil dolç">
                     <div class="preu"><h3>1,00 €</h3></div>
                     <div>
                         <form class="quantitat">
@@ -31,7 +30,7 @@
         
     </div>
     <div class="fer comanda">
-        <form action="" method="POST"><input class="fercomanda-boto" type="submit" value="Realitzar comanda"></form>
+        <form action="" method="POST"><input class="fercomanda-boto" type="submit" value="Següent"></form>
     </div>
 
     <?php include "php/footer.php";?>
