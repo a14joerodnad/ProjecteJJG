@@ -19,27 +19,123 @@
     </br>
     </br>
     </br>
-    <h1>Entrepans</h1>
-    <div class="menumati">
+    
+    <div class="menuEsmorzar">
+    <h1>Esmorzar</h1>
         <div class="entrepans">
-            <div class="productes">
-                <div class="producte1">
-                    <div class="titol"><h3>Pernil dolç</h3></div>
-                    <img class="imatgeProductes" src="./imatges/donutsxoco.jpg" alt="Pernil dolç">
-                    <div class="preu"><h3>1,00 €</h3></div>
-                    <div>
-                        <form class="quantitat">
-                            <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
-                        </form>
-                    </div>
-                </div>
+            <h3>Entrepans:</h3>
+            <div class="pernil">
+                <div class="nom"><p>Pernil dolç</p></div>
+                <div class="preu"><p>1,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="fuet">
+                <div class="nom"><p>Fuet</p></div>
+                <div class="preu"><p>1,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="formatge">
+                <div class="nom"><p>Formatge</p></div>
+                <div class="preu"><p>1,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="tonyina">
+                <div class="nom"><p>Tonyina</p></div>
+                <div class="preu"><p>1,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
             </div>
         </div>
-
+        <div class="patates">
+            <h3>Patates:</h3>
+            <div class="lays">
+                <div class="nom"><p>Lays salades</p></div>
+                <div class="preu"><p>1,20€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="risquetos">
+                <div class="nom"><p>Risquetos</p></div>
+                <div class="preu"><p>1,20€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="fer comanda">
-        <form action="" method="POST"><input class="fercomanda-boto" type="submit" value="Següent"></form>
+    
+    <div class="menuDinar">
+    <h1>Dinar</h1>
+        <div class="plats">
+            <h3>Plats combinats:</h3>
+            <div class="plat1">
+                <div class="nom"><p>Botifarra amb patates fregides</p></div>
+                <div class="preu"><p>7,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="plat2">
+                <div class="nom"><p>Hamburgueses amb amanida</p></div>
+                <div class="preu"><p>7,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="plat3">
+                <div class="nom"><p>Pure de verdures</p></div>
+                <div class="preu"><p>7,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+            <div class="plat4">
+                <div class="nom"><p>Arròs amb pollastre (FITNESS BULKING)</p></div>
+                <div class="preu"><p>7,50€</p></div>
+                <form class="quantitat">
+                    <input type="number" name="fname" class="quantitat-boto" value="0">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="begudes">
+        <h1>Begudes:</h1>
+        <div class="fantaTaronja">
+            <div class="nom"><p>Fanta taronja</p></div>
+            <div class="preu"><p>1,00€</p></div>
+            <form class="quantitat">
+                <input type="number" name="fname" class="quantitat-boto" value="0">
+            </form>
+        </div>
+        <div class="Cocacola">
+            <div class="nom"><p>Cocacola</p></div>
+            <div class="preu"><p>1,00€</p></div>
+            <form class="quantitat">
+                <input type="number" name="fname" class="quantitat-boto" value="0">
+            </form>
+        </div>
+        <div class="Monster">
+            <div class="nom"><p>Monster</p></div>
+            <div class="preu"><p>1,00€</p></div>
+            <form class="quantitat">
+                <input type="number" name="fname" class="quantitat-boto" value="0">
+            </form>
+        </div>
+    </div>
+
+    <div class="demanar">
+        <form id="enviarComanda" action="" method="POST">
+            <input class="demanar-boto" type="submit" value="Enviar comanda">
+        </form>
     </div>
 
     <?php include "footer.php";?>
