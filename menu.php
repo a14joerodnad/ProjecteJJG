@@ -132,9 +132,9 @@
         </div>
     </div>
 
-    <div class="demanar">
-        <form id="enviarComanda" action="" method="POST">
-            <input class="demanar-boto" type="submit" value="Enviar comanda">
+    <div class="enviar">
+        <form id="enviarcarro" action="" method="POST">
+            <input class="botonenviar" type="submit" value="Enviar comanda">
         </form>
     </div>
 

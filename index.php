@@ -14,28 +14,20 @@
         <link href="css/css.css" rel="stylesheet" />
     </head>
     <body>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
         <?php include 'header.php';?>
 
-        <div class="boton">
-          <a href="menu.php">
-              <input type="button" value="Fer comanda">
-          </a>
+        <div class="botonflex">
+            <div class="boton">
+            <a href="menu.php">
+                 <input type="button" value="Fer comanda">
+             </a>
+         </div>
+            <div class="boton">
+             <a href="admin.php">
+                  <input type="button" value="Administrador">
+             </a>
+            </div>
         </div>
-        <div class="boton">
-          <a href="admin.php">
-              <input type="button" value="Administrador">
-          </a>
-        </div>
-
         <?php include 'footer.php';?>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
