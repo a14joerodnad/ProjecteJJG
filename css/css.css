@@ -67,35 +67,3 @@ input[type="submit"]:hover {
    padding: 3px;
    margin: 5px;
 }
-
-header{
-   right:10px;
-   left:10px;
-   margin:10px;
-   background-color: gray;
-}
-
-header ul{
-   list-style-type: none;
-   overflow: hidden;
-}
-
-header li{
-   float: left;
-}
-
-header li a{
-   display: block;
-   color: coral;
-   text-align: center;
-   padding:14px 16px;
-   text-decoration: none;
-}
-
-.nav-bar-title{
-   float: left;
-}
-
-header li a:hover{
-   color: dodgerblue;
-}
