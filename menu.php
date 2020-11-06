@@ -1,3 +1,8 @@
+<?php 
+     if(isset($_COOKIE['comandafeta'])){
+         header('Location:error.php');
+     }
+    ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -21,7 +26,7 @@
     </br>
     </br>
     
-    <div class="menuEsmorzar">
+    <div class="menuEsmorzar" disabled>
     <h1>Esmorzar</h1>
         <div class="entrepans">
             <h3>Entrepans:</h3>
@@ -73,7 +78,7 @@
         </div>
     </div>
     
-    <div class="menuDinar">
+    <div class="menuDinar" disabled>
     <h1>Dinar</h1>
         <div class="plats">
             <h3>Plats combinats:</h3>
@@ -108,7 +113,7 @@
         </div>
     </div>
 
-    <div class="begudes">
+    <div class="begudes" disabled>
         <h1>Begudes:</h1>
         <div class="fantaTaronja">
             <div class="nom"><p>Fanta taronja</p></div>
@@ -134,11 +139,12 @@
     </div>
 
     <div class="enviar">
-        <form id="enviarcarro" action="" method="POST">
+        <form id="enviarcarro" action="carro.php" method="POST">
             <input class="botonenviar" type="submit" value="Enviar comanda">
         </form>
     </div>
-
+   
+    
     <?php include "footer.php";?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

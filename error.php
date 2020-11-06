@@ -1,5 +1,3 @@
-<?php setcookie('comandafeta',"valor",time() +246060);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,8 +22,7 @@
     </br>
     
     <?php include 'header.php';?>
-    <p>Tu Pedido ha quedado registrado.</p>
-    <p>Ya se esta preparando.</p>
+    <p>Avui ja has fet una comanda, no es pot fer més d'una.</p>
     <?php include 'footer.php';?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

@@ -7,20 +7,25 @@ window.onload = function(){
   
   if (horaActual <= 11 & minutactual <= 30){
 
-      document.getElementsByClassName('menuEsmorzar').style.display = "block";
-      document.getElementsByClassName('menuDinar').style.display = "none";
-      document.getElementsByClassName('begudes').style.display = "block";
+      document.getElementsByClassName("menuEsmorzar").disabled= "false";
+      document.getElementsByClassName("menuDinar").disabled = "true";
+      document.getElementsByClassName("begudes").disabled = "false";
   }
 
   else{
 
-      document.getElementsByClassName('menuEsmorzar').style.display = "none";
-      document.getElementsByClassName('menuDinar').style.display = "block";
-      document.getElementsByClassName('begudes').style.display = "block";
+      document.getElementsByClassName("menuEsmorzar").disabled= "true";
+      document.getElementsByClassName("menuDinar").disabled= "false";
+      document.getElementsByClassName("begudes").disabled= "false";
   }
  
 
 
-document.getElementsByClassName("botonenviar").onclick = enviacomanda;
+//document.getElementsByClassName("botonenviar").onclick = enviacomanda;
 
 }
+
+//function enviar(){
+  //do
+
+//}
