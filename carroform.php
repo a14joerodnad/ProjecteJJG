@@ -10,16 +10,16 @@
 </head>
     <body>
     <?php include 'header.php';?>
-    <h1>Formulario.</h1>
+    <h2>Introdueix les teves dades</h2>
         <form action="gracias.php" method="post"/>
 
-            <p>Nombre:</p> <input type="text" name="nombre"/>
-            <p>Apellidos:</p> <input type="text" name="apellidos" size="40"/>
-            <p>Correo:</p> <input type="text" name="email" size="35"/>
+            <h5>Nombre:</h5> <input type="text" name="nom" size="25"/>
+            <h5>Apellidos:</h5> <input type="text" name="cognoms" size="30"/>
+            <h5>Correo:</h5> <input type="text" name="email" size="40"/>
 
-            <p>
+            <p class="submitForm">
                 <input type="submit" value="Enviar">
-                <input type="reset" value="borrar todo">
+                <input type="reset" value="Borrar tot">
             </p>
         </form>
         <?php include 'footer.php';?>

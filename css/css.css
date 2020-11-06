@@ -83,9 +83,41 @@ input[type="submit"]:hover {
    border-style: solid;
    justify-content: center;
 }
+
 .footercss{
    margin: 10px;
    padding: 10px;
    display: flex;
    justify-content: center;
+}
+
+.menuEsmorzar{
+   margin-top: 120px;
+}
+
+.margenForm{
+   margin-top: 150px;
+}
+
+.submitForm{
+   margin-top: 80px;
+}
+
+input {
+   border-color: black;
+   border-style: solid;
+}
+
+.menjar{
+   display: flex;
+}
+.nom{
+   margin: 10px;
+   width: 120px;
+}
+.preu{
+   margin: 10px;
+}
+.quantitat{
+   margin: 10px;
 }

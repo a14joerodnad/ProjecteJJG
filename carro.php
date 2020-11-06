@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
    <head>
-      <title>Login</title>
+      <title>Resum comanda</title>
       <link rel="stylesheet" type="text/css" href="css/css.css">
       <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
       <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -11,13 +11,8 @@
    </head>
    <body>
      <?php include 'header.php';?>
-     </br>
-    </br>
-    </br>
-    </br>
-    </br>
+     <div class="margenForm"></div>
 
-     
      <?php include 'carroform.php';?>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

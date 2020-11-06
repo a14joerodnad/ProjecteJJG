@@ -20,38 +20,34 @@
 </head>
 <body>
     <?php include 'header.php';?>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
+    
     
     <div class="menuEsmorzar" disabled>
     <h1>Esmorzar</h1>
         <div class="entrepans">
             <h3>Entrepans:</h3>
-            <div class="pernil">
+            <div class="menjar">
                 <div class="nom"><p>Pernil dolç</p></div>
                 <div class="preu"><p>1,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="pernildolç" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="fuet">
+            <div class="menjar">
                 <div class="nom"><p>Fuet</p></div>
                 <div class="preu"><p>1,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="fuet" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="formatge">
+            <div class="menjar">
                 <div class="nom"><p>Formatge</p></div>
                 <div class="preu"><p>1,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="formatge" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="tonyina">
+            <div class="menjar">
                 <div class="nom"><p>Tonyina</p></div>
                 <div class="preu"><p>1,50€</p></div>
                 <form class="quantitat">
@@ -61,14 +57,14 @@
         </div>
         <div class="patates">
             <h3>Patates:</h3>
-            <div class="lays">
+            <div class="menjar">
                 <div class="nom"><p>Lays salades</p></div>
                 <div class="preu"><p>1,20€</p></div>
                 <form class="quantitat">
                     <input type="number" name="lays" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="risquetos">
+            <div class="menjar">
                 <div class="nom"><p>Risquetos</p></div>
                 <div class="preu"><p>1,20€</p></div>
                 <form class="quantitat">
@@ -82,29 +78,29 @@
     <h1>Dinar</h1>
         <div class="plats">
             <h3>Plats combinats:</h3>
-            <div class="plat1">
+            <div class="menjar">
                 <div class="nom"><p>Botifarra amb patates fregides</p></div>
                 <div class="preu"><p>7,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="botifarra" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="plat2">
+            <div class="menjar">
                 <div class="nom"><p>Hamburgueses amb amanida</p></div>
                 <div class="preu"><p>7,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="hamburgueses" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="plat3">
+            <div class="menjar">
                 <div class="nom"><p>Pure de verdures</p></div>
                 <div class="preu"><p>7,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="pure" class="quantitatbutton" value="0">
                 </form>
             </div>
-            <div class="plat4">
-                <div class="nom"><p>Arròs amb pollastre (FITNESS BULKING)</p></div>
+            <div class="menjar">
+                <div class="nom"><p>Arròs amb pollastre</p></div>
                 <div class="preu"><p>7,50€</p></div>
                 <form class="quantitat">
                     <input type="number" name="arros" class="quantitatbutton" value="0">
@@ -115,21 +111,21 @@
 
     <div class="begudes" disabled>
         <h1>Begudes:</h1>
-        <div class="fantaTaronja">
+        <div class="menjar">
             <div class="nom"><p>Fanta taronja</p></div>
             <div class="preu"><p>1,00€</p></div>
             <form class="quantitat">
                 <input type="number" name="fanta" class="quantitatbutton" value="0">
             </form>
         </div>
-        <div class="Cocacola">
+        <div class="menjar">
             <div class="nom"><p>Cocacola</p></div>
             <div class="preu"><p>1,00€</p></div>
             <form class="quantitat">
                 <input type="number" name="cocacola" class="quantitatbutton" value="0">
             </form>
         </div>
-        <div class="Monster">
+        <div class="menjar">
             <div class="nom"><p>Monster</p></div>
             <div class="preu"><p>1,00€</p></div>
             <form class="quantitat">
